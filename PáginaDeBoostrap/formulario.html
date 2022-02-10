@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/cssPropio.css" rel="stylesheet" />
+    </head>
+    <body id="formulario">
+        <div class="row">
+        <form id="formulario" action="https://iesjacaranda.es/lmsgi/resultado.php" method="get">
+
+
+            <div class="text-center">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Introduce tu E-mail</label>
+              <input type="email" name="Email" required class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail">
+              <small id="emailHelp" class="form-text text-muted">Tu correo solo será compartido con los encargados del club.</small>
+            </div>
+
+            <hr size="15" color="gold">
+
+
+            <div class="form-group">
+              <label for="exampleInputPassword1">Información adicional</label>
+              <input type="text" name="Info adicional"  class="form-control" id="exampleInputPassword1" placeholder="Información adicional">
+            </div>
+
+            <hr size="15" color="gold">
+
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">¿Número de horas jugadas?</label>
+                <select class="form-control" required id="exampleFormControlSelect1" name="Horas de juego totales">
+                  <option>Por defecto</option>  
+                  <option>+100 horas</option>
+                  <option>+500 horas</option>
+                  <option>+1500 horas</option>
+                  <option>+5000 horas</option>
+                </select>
+              </div>
+
+                <hr size="15" color="gold">
+
+              <div class="form-group">
+                <label for="exampleFormControlSelect2">Elija el equipo al que quiera optar</label>
+                <p><input type="radio" value="Call of duty" name="Juego">Call of duty</p>
+                <p><input type="radio" value="Counter Strike" name="Juego">Counter Strike</p>
+                <p><input type="radio" value="Rainbow six Siege" name="Juego">Rainbow six Siege</p>
+                <p><input type="radio" value="Fortnite" name="Juego">Fortnite</p>
+                <p><input type="radio" value="Rocket league" name="Juego">Rocket league</p>
+                <p><input type="radio" value="Fifa" name="Juego">Fifa</p>
+              </div>
+
+              <hr size="15" color="gold">
+
+              <div class="form-group">
+                <label for="1">Edad</label>
+                <input type="number" required name="Edad" class="form-control" id="1" placeholder="Edad">
+              </div>
+
+              <hr size="15" color="gold">
+
+            <div class="form-check">
+              <input id="cheq" type="checkbox" value="Si" name="noticias" class="form-check-input" id="Check1" >
+              <label  class="form-check-label" for="Check1">Quiero recibir futuras noticias</label>
+            </div>
+
+                <hr size="15" color="gold">
+
+            <button type="submit" id="uno" class="btn btn-primary">Enviar formulario</button>
+            </div>
+
+            <hr size="15" color="gold">
+
+        </form>
+        </div>
+    </body>
+</html>

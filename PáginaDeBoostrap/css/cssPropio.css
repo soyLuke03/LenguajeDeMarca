@@ -1,0 +1,55 @@
+div p span#uno a{ color: black; text-decoration: none; size: 5em;}
+div p span#dos a{ color: black; text-decoration: none; size: 5em;}
+div input#cheq {float: none;}
+body#formulario {background: rgb(2,0,36);
+    background: linear-gradient(321deg, rgba(2,0,36,1) 9%, rgba(238,255,0,0.7407913849133403) 44%);}
+
+.btn-primary {background-color: rgb(164, 175, 3);}
+
+h2#barra{background-color: yellow;}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(137, 175, 1, 0.37);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: rgb(0, 255, 42);
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }

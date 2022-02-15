@@ -53,7 +53,7 @@ public class Maquina {
 		
 		this.monedero = 0.0;
 		
-		System.out.println("Vaciando moendero...");
+		System.out.println("Vaciando monedero...");
 	}
 	
 	public void consultaEstado() {
@@ -66,7 +66,7 @@ public class Maquina {
 		
 	}
 	
-	public void servirCafe(String opcion) {
+	public void servirCafe(String opcion) throws CafeExcepcion {
 		Scanner sc = new Scanner(System.in);
 		double dinero;
 		
@@ -77,11 +77,10 @@ public class Maquina {
 			dinero = Double.valueOf(sc.nextLine());
 			
 			if(dinero < this.precioCafe || monedero - (dinero - this.precioCafe) < 0) {
-				System.out.println("Dinero insuficiente o no es posible entregar el cambio.");
+				throw new CafeExcepcion("[ERROR]Dinero insuficiente o cambio insuficiente");
 			}
 			else if(depoCafe == 0) {
-				System.out.println("No hay existencias.");
-				llenarDeposito();
+				throw new CafeExcepcion("[ERROR]Sin existencias");
 			}else {
 				System.out.println("Su cambio es: " + (dinero - this.precioCafe));
 				this.depoCafe--;
@@ -95,11 +94,10 @@ public class Maquina {
 			dinero = Double.valueOf(sc.nextLine());
 
 			if(dinero < this.precioLeche || monedero - (dinero - this.precioLeche) < 0) {
-				System.out.println("Dinero insuficiente o no es posible entregar el cambio.");
+				throw new CafeExcepcion("[ERROR]Dinero insuficiente o cambio insuficiente");
 			}
 			else if(depoLeche == 0 || depoVaso == 0) {
-				System.out.println("No hay existencias.");
-				llenarDeposito();
+				throw new CafeExcepcion("[ERROR]Sin existencias");
 			}else {
 				System.out.println("Su cambio es: " + (dinero - this.precioLeche));
 				this.depoLeche--;
@@ -114,11 +112,10 @@ public class Maquina {
 			dinero = Double.valueOf(sc.nextLine());
 
 			if(dinero < this.precioCafeLeche || monedero - (dinero - this.precioCafeLeche) < 0) {
-				System.out.println("Dinero insuficiente o no es posible entregar el cambio.");
+				throw new CafeExcepcion("[ERROR]Dinero insuficiente o cambio insuficiente");
 			}
 			else if(depoCafe == 0 || depoLeche == 0 || depoVaso == 0) {
-				System.out.println("No hay existencias.");
-				llenarDeposito();
+				throw new CafeExcepcion("[ERROR]Sin existencias");
 			}else {
 				System.out.println("Su cambio es: " + (dinero - this.precioCafeLeche));
 				this.depoLeche--;

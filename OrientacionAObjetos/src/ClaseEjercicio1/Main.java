@@ -5,11 +5,19 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-	Rectangulo rect = new Rectangulo();
+
+	try {
+
+		Rectangulo r1 = new Rectangulo(-1,2);
+		
+	}catch(RectException errorRectangulo) {
+		System.out.println("Se ha producido una excepción: "+errorRectangulo.getMessage());
+	}
+	 
+	 catch (Exception e) {
+		 System.out.println("La excepción no se esperaba."+ e.getMessage());
+	 }
 	
-	rect.setAncho(1);
-	rect.setLongitud(5);
-	System.out.println("El area es: "+rect.calcularArea()+" y el perimetro es: " + rect.calcularPerimetro());
 	
 		
 		

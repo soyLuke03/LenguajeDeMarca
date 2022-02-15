@@ -10,6 +10,10 @@ public class Rectangulo {
 	
 			//CONSTRUCTORES
 	
+	public Rectangulo (int longitud, int ancho) {
+		setLongitud(longitud);
+		setAncho(ancho);
+	}
 	
 	
 			//METODOS
@@ -20,9 +24,15 @@ public class Rectangulo {
 	}
 	
 	public int calcularArea() {
-		int area = (this.longitud * this.ancho);
 		
-		return area;
+		if (this.ancho<=1 || this.longitud <=1) {
+			throw new RectException ("No se puede illo");
+		}else {
+			int area = (this.longitud * this.ancho);
+			return area;
+		}
+		
+		
 	}
 	
 	
@@ -32,15 +42,15 @@ public class Rectangulo {
 		if (ancho < 20 && ancho > 0) {
 			this.ancho = ancho;
 		}else {
-			System.out.println("Número [ancho] es inválido. Se usará el valor predeterminado.");
+//			throw new RectException("El valor introducido no es válido");
 		}
 		return this.ancho;
 	}
 	public Integer setLongitud (int longitud) {
 		if (longitud < 20 && longitud > 0) {
 			this.longitud = longitud;
-		}else {
-			System.out.println("Número [longitud] es inválido Se usará el valor predeterminado.");
+		}else {	
+//			throw new RectException("El valor introducido no es válido");
 		}
 		
 		return this.longitud;

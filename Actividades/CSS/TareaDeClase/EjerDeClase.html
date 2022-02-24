@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <head>
+        <style>
+            body div#uno:hover{background-color: red;}  
+            body div#dos:hover{background-color: red;}
+            div#uno{ background-color: yellow; float: left; width: 45%; height: 700px;}
+            div#dos{ background-color: rgb(147, 245, 1) ; float: right; width: 45%; height: 700px;}
+
+            
+          input:read-write{color:yellow;}
+
+            form input#tres:checked {float: right;}
+            input#uno:checked {width: 100px; height: 100px;}
+            input#dos:checked {width: 100px; height: 100px;}
+            
+            input#cuatro:read-only{float: right;}
+
+
+        </style>
+    </head>
+    <body>
+        <div id="uno">
+            <h1>Esto se va de aquí</h1>
+            <form>
+                <input id="uno" type="checkbox" value="PULSAME">
+                <br>
+                <input id="tres" type="radio">
+                <br>
+                <input id="cuatro" type="text" readonly value="Hola">
+            </form>
+
+        </div>
+        <div id="dos">
+            <h1>Esto se va de aquí</h1>
+            <form>
+                <input id="dos" type="checkbox" value="NO SIRVO">
+                <br>
+                <input id="tres" type="radio">
+                <br>
+                <input id="cuatro" type="text" value="Hola">
+            </form>
+        </div>
+    </body>
+
+</html>

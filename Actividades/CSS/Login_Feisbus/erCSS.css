@@ -1,0 +1,12 @@
+div#Cuadrado {text-align: center; float: right; margin-right: 80px; margin-top: 160px;}
+fieldset {width: 60%;margin-top: -50px; float:right ;margin-right:80px; width: 350px; height: 400px;border-style:solid ;background-color: rgb(224, 252, 255);border-radius: 15px; border-width: 4px;}
+br + input{margin-top: 30px;}
+body {background-color: rgb(208,251,255); zoom : 110%}
+div#uno {zoom: 140%;float: left; margin-top: 100px; margin-left: 80px;}
+input#login {border-radius: 15px;background-color: blue;color: white; height: 50px;width: 90% ;border-style: groove;}
+input#password {border-radius: 15px;width: 90% ; height: 50px}
+input#email {border-radius: 15px;width: 90%;height: 50px}
+a#forgotpass {color:blue;}
+input#create {border-radius: 15px;margin-top:10px ;border-style:groove; width:70%; height: 50px ;background-color: green; color: white;}
+ p {margin-right: 70px;}
+

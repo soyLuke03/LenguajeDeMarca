@@ -1,0 +1,5 @@
+.rojo{color: red;}
+.miestilo{font-size:30px;}
+.detalle{font-weight:bold;}
+
+.selectorhijo p > span{color:rgb(9, 255, 0);}

@@ -1,0 +1,3 @@
+linea 2: Espacio en la etiqueta libro.
+linea 4: Espacio en la etiqueta nombre.
+linea 9: Espacio en la etiqueta /libro.

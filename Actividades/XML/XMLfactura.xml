@@ -1,0 +1,90 @@
+<? xml version="1.0" encoding="UTF-7" ?>
+<factura>
+    <apartado1>
+        <subapartado1>
+            <titulo>FACTURA nº 999</titulo>
+            <nombre>Equipos Digitales S.L</nombre>
+            <direccion>Av. Valladolid</direccion>
+            <comunidad>Madrid 282015</comunidad>
+            <cif>C.I.F.: 91.777.66.88</cif>
+            <fax>fax: 91.777.66.99</fax>
+        <subapartado1>
+        <subapartado>
+            <fecha>12-01-2005</fecha>
+            <pedido>731</pedido>
+            <metododepago>EFECTIVO</metododepago>
+        </subapartado>
+    </apartado1>
+    <apartado2>
+        <ncliente>879</ncliente>
+        <nombre>Dario Bueno Gutiérrez</nombre>
+        <direccion>Av. Oporto nº7 4ºd</direccion>
+        <poblacion></poblacion>
+        <comunidad>Madrid cod.</comunidad>
+        <postal>28043</postal>
+        <provincia>Madrid</provincia>
+    </apartado2>
+    <apartado3>
+        <subapartado1>
+            <ref>
+                <titulo>REF</titulo>
+                <fila1>MII93000F/8</fila1>
+                <fila2>MB8QDIP4</fila2>
+                <fila3>MEDD512M32</fila3>
+                <fila4>HD250GSA7</fila4>
+            </ref>
+            <descripcion>
+                <titulo>DESCRIPCION</titulo>
+                <fila1>MICRO PENTIUM IV 3000MHZ FB800</fila1>
+                <fila2>PLACA BASE QDI P4</fila2>
+                <fila3>DIMM DDR 512MB 3200</fila3>
+                <fila4>DISCO DURO 250GB S-ATA 7200</fila4>
+            </descripcion>
+            <cant>
+                <titulo>CANT.</titulo>
+                <fila1>1</fila1>
+                <fila2>1</fila2>
+                <fila3>2</fila3>
+                <fila4>4</fila4>
+            </cant>
+            <precio>
+                <titulo>PRECIO</titulo>
+                <fila1>230 eur.</fila1>
+                <fila2>180 eur.</fila2>
+                <fila3>40 eur.</fila3>
+                <fila4>120 eur.</fila4>
+            </precio>
+            <iva>
+                <titulo>I.V.A</titulo>
+                <fila1>16.0</fila1>
+                <fila2>16.0</fila2>
+                <fila3>16.0</fila3>
+                <fila4>16.0</fila4>
+            </iva>
+            <importe>
+                <titulo>IMPORTE</titulo>
+                <fila1>266,80 eur.</fila1>
+                <fila2>208,80 eur.</fila2>    
+                <fila3>92,80 eur.</fila3>
+                <fila4>556,80 eur.</fila4>
+            </importe>
+        </subapartado1>
+        <subapartado2>
+            <baseimponible>
+                <titulo>Base imponible</titulo>
+                <descripcion>970,00 eur.</descripcion>
+            </baseimponible>
+            <porc_iva>
+                <titulo>% I.V.A</titulo>
+                <descripcion>16,0</descripcion>
+            </porc_iva>
+            <cuotaiva>
+                <titulo>Cuota I.V.A</titulo>
+                <descripcion>155,20 eur.</descripcion>
+            </cuotaiva>
+        </subapartado2>
+    </apartado3>
+    <apartado4>
+        <descripcion>TOTAL FACTURA: 1125,20 eur</descripcion>
+    </apartado4>
+</factura>

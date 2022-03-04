@@ -1,0 +1,3 @@
+linea 3: La etiqueta 1 no se cierra correctamente
+linea 4: La etiqueta 2 no se cierra correctamente
+linea 5: La etiqueta 6 no se cierra correctamente

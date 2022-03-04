@@ -1,0 +1,20 @@
+<ligafutbol>
+    <partido>
+        <equipolocal>Real Madrid</equipolocal>
+        <equipovisitante>Barcelona</equipovisitante>
+        <goleslocal numero="3"/>
+        <golesvisitante numero="0"/>
+    </partido>
+    <partido>
+        <equipolocal>Sevilla</equipolocal>
+        <equipovisitante>Betis</equipovisitante>
+        <goleslocal numero="1"/>
+        <golesvisitante numero="1"/>
+    </partido>
+    <partido>
+        <equipolocal>Granada</equipolocal>
+        <equipovisitante>Real Sociedad</equipovisitante>
+        <goleslocal numero="0"/>
+        <golesvisitante numero="2"/>
+    </partido>
+</ligafutbol>

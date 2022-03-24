@@ -1,0 +1,14 @@
+<!DOCTYPE lista [
+<!ELEMENT lista (alumno,asignatura)> 
+<!ELEMENT alumno (nombre,apellidos)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT asignatura (dia,hora)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+
+<!ATTLIST lista id CDATA #REQUIRED>
+<!ATTLIST lista codigo CDATA #REQUIRED>
+
+]>
+

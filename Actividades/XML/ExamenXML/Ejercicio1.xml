@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"/>
+
+<!-- etiqueta que hace falta crearla -->
+
+< futbolista id=”1”> <!-- Espacio en el primer hueco de la etiqueta ademas, las comillas estan mal puestas -->
+	<equipo Betis ></equipo> <!-- Betis no esta bien colocado -->
+	<procedencia> ESP < /procedencia> <!-- Espacion en la etiqueta de cerrado -->
+	<nombre>Joaquín</nombre>
+	<apellidos>Sánchez</apellido> <!-- La etiqueta final no es correcta le falta una S y la etiqueta de cerrado tiene un espacio-->
+	<http://>joaquinsanchez.com< /http://> <!-- Caracteres especiales no son validos -->
+</futbolista id> <!-- id no puede estar ahi -->
+< futbolista id=”2”> <!-- Espacio en el primer lugar y las comillas estan mal puestas -->
+	<equipo = "Sevilla" ></equipo> <!-- El atributo no estaba bien declarado -->
+	<procedencia> <ESP /procedencia> <!-- La etiqueta estaba mal cerrada -->
+	<nombre>Jesús</nombre>
+	<apellidos>Navas</apellido> <!-- En el cierre falta una S -->
+	<http://>jesusnavas.org< /http://> <!-- Caracteres invalidos y etiqueta de cerrado con un espacio en primer lugat -->
+</futbolista id> <!-- id no puede esta ahi -->
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"/>
+<futbolistas> 
+	<futbolista id="1">
+		
+		<equipo> Betis </equipo>
+		<procedencia> ESP </procedencia> 
+		
+		<nombre> Joaquín </nombre>
+		
+		<apellidos> Sánchez </apellidos> 
+		<http> joaquinsanchez.com </http> 
+	
+	</futbolista> 
+
+	<futbolista id="2"> 
+	
+		<equipo name="Sevilla"></equipo> 
+		<procedencia> ESP </procedencia> 
+		
+		<nombre> Jesús </nombre>
+		
+		<apellidos> Navas </apellidos> 
+		<http> jesusnavas.org </http> 
+	
+	</futbolista> 
+</futbolistas>

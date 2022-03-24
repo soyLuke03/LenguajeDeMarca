@@ -1,0 +1,61 @@
+
+<!DOCTYPE Facturas[
+<!ELEMENT Facturas (factura*)>
+<!ELEMENT factura (datos_cliente, datos_factura)>
+<!ELEMENT datos_cliente (nombre, primer_apellido, segundo_apellido, dni, telefono)>
+
+<!ATTLIST datos_cliente identificador ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT primer_apellido (#PCDATA)>
+<!ELEMENT segundo_apellido (#PCDATA)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+
+<!--factura-->
+<!ELEMENT datos_factura (resguardo, (alquileres | compras | (alquileres,compras)))>
+<!ELEMENT datos_factura (#PCDATA)>
+<!ELEMENT resguardo (forma_pago, importe_total)>
+<!ELEMENT forma_pago (#PCDATA)>
+<!ELEMENT importe_total (#PCDATA)>
+
+<!--alquileres-->
+<!ELEMENT alquileres (fecha, peliculas)>
+<!ELEMENT fecha (#PCDATA)>
+<!--peliculas-->
+
+<!ELEMENT peliculas (pelicula+)>
+<!ELEMENT pelicula (titulo, genero, duracion, actores)>
+<!--pelicula-->
+
+<!ATTLIST pelicula idPelicula ID #REQUIRED>
+<!ATTLIST pelicula valoracion CDATA "">
+<!ATTLIST pelicula caratula CDATA "">
+<!--pelicula-->
+
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+<!--actores-->
+
+<!ELEMENT actores (actor, actor, actor)>
+<!ELEMENT actor (nombre, primer_apellido, segundo_apellido)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT primer_apellido (#PCDATA)>
+<!ELEMENT segundo_apellido (#PCDATA)>
+<!--compras-->
+
+<!ELEMENT compras (dvds, cintas)>
+<!--dvds-->
+
+<!ELEMENT dvds (dvd+)>
+<!ELEMENT dvd (titulo, fecha, extras?)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT extras EMPTY>
+<!--cintas-->
+
+<!ELEMENT cintas (cinta+)>
+<!ELEMENT cinta (formato, rebobinado?)>
+<!ELEMENT formato (#PCDATA)>
+<!ELEMENT rebobinado EMPTY>
+]>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proveedores>
+    <proveedor>
+        <nombre>Pepe</nombre>
+
+        <cif>123324423L</cif>
+
+        <direccion>C/Alguna</direccion>
+
+        <telefono>123123123</telefono>
+
+        <correo_electronico>Correofalso@falsomail.com</correo_electronico>
+
+        <pagina_web>falsaweb.es</pagina_web>
+
+        <facebook>PepeELE</facebook>
+
+        <twitter>@PEPELE</twitter>
+
+        <nombre_personas_contacto>
+
+            <nombre_persona>Alfonsa Mari</nombre_persona>
+            <nombre_persona>Joselu</nombre_persona>
+
+        </nombre_personas_contacto>
+
+        <correo_electronico_profesional>CorreoMasFalso@falsomail.com</correo_electronico_profesional>
+    </proveedor>
+
+    <proveedor>
+        <nombre>JajaCba</nombre>
+
+        <cif>123332423L</cif>
+
+        <direccion></direccion>
+
+        <telefono></telefono>
+
+        <correo_electronico></correo_electronico>
+
+        <pagina_web></pagina_web>
+
+        <facebook></facebook>
+
+        <twitter></twitter>
+
+        <nombre_personas_contacto>
+
+            <nombre_persona>Pepe</nombre_persona>
+            <nombre_persona>None</nombre_persona>
+
+        </nombre_personas_contacto>
+
+        <correo_electronico_profesional>CorreoMasFalso@falsomail.com</correo_electronico_profesional>
+    </proveedor>
+</proveedores>

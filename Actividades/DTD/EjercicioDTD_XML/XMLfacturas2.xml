@@ -1,0 +1,63 @@
+<!DOCTYPE XMLfacturas2 SYSTEM "s/ejercicioDTD.dtd">
+<?xml version="1.0" encoding="utf-8"?>
+
+<facturas>
+    <factura>
+       <datos_cliente ident="C130">
+            <nombre>Vicente</nombre>
+            <primer_apellido>del</primer_apellido>
+            <segundo_apellido>Bosque</segundo_apellido>
+            <dni>690420329X</dni>
+            <telefono>722435322</telefono>
+        </datos_cliente>
+
+        <datos_factura>
+            <resguardo>
+                <forma_pago>efectivo</forma_pago>
+                <importe_total>1999</importe_total>
+            </resguardo>
+            <alquileres>
+                <fecha>29/04/2012</fecha>
+                <peliculas>
+                    <pelicula idPelicula="p234" caratula="foto_p5323">
+                        <titulo>EL NIÑO PROYECTOR</titulo>
+                        <genero>Ciencia_ficción</genero>
+                        <duracion>2min</duracion>
+                        <actores>
+                            <actor>
+                                <nombre>Jiu</nombre>
+                                <primer_apellido>Grant</primer_apellido>
+                                <segundo_apellido></segundo_apellido>
+                            </actor>
+                            <actor>
+                                <nombre>Sirvester</nombre>
+                                <primer_apellido>Estalón</primer_apellido>
+                                <segundo_apellido></segundo_apellido>
+                            </actor>
+                            <actor>
+                                <nombre>Yaqui</nombre>
+                                <primer_apellido>Shan</primer_apellido>
+                                <segundo_apellido></segundo_apellido> 
+                            </actor>
+                        </actores>
+                    </pelicula>
+                </peliculas>
+            </alquileres>
+            <compras>
+                    <dvds>
+                        <dvd>
+                        <extras></extras>
+                        <titulo>Bocadillo</titulo>
+                        <fecha>2018</fecha>
+                        </dvd>
+                    </dvds>
+                    <cintas>
+                        <cinta>
+                            <formato>VHS</formato>
+                            <rebobinado>no</rebobinado>    
+                        </cinta>
+                    </cintas>
+                </compras>
+        </datos_factura>
+    </factura>
+ </facturas>

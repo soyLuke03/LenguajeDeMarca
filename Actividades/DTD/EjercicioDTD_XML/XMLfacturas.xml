@@ -1,0 +1,62 @@
+<!DOCTYPE XMLfacturas SYSTEM "s/ejercicioDTD.dtd">
+<?xml version="1.0" encoding="utf-8"?>
+<facturas>
+    <factura>
+       <datos_cliente identificador="C130">
+            <nombre>Pepe</nombre>
+            <primer_apellido>Moreno</primer_apellido>
+            <segundo_apellido>Cabesa</segundo_apellido>
+            <dni>123412329X</dni>
+            <telefono>722663322</telefono>
+        </datos_cliente>
+
+        <datos_factura>
+            <resguardo>
+                <forma_pago>tarjeta</forma_pago>
+                <importe_total>25</importe_total>
+            </resguardo>
+            <alquileres>
+                <fecha>12/01/2005</fecha>
+                <peliculas>
+                    <pelicula idPelicula="p124" caratula="foto_p1323">
+                        <titulo>SPANISH PIE</titulo>
+                        <genero>Comedia</genero>
+                        <duracion>127min</duracion>
+                        <actores>
+                            <actor>
+                                <nombre>Luke</nombre>
+                                <primer_apellido>ENL</primer_apellido>
+                                <segundo_apellido></segundo_apellido>
+                            </actor>
+                            <actor>
+                                <nombre>Vicen</nombre>
+                                <primer_apellido>Te</primer_apellido>
+                                <segundo_apellido></segundo_apellido>
+                            </actor>
+                            <actor>
+                                <nombre>HErme</nombre>
+                                <primer_apellido>Jor</primer_apellido>
+                                <segundo_apellido></segundo_apellido> 
+                            </actor>
+                        </actores>
+                    </pelicula>
+                </peliculas>
+            </alquileres>
+            <compras>
+                    <dvds>
+                        <dvd>
+                        <extras></extras>
+                        <titulo>Ancharteh</titulo>
+                        <fecha>2022</fecha>
+                        </dvd>
+                    </dvds>
+                    <cintas>
+                        <cinta>
+                            <formato>VHS</formato>
+                            <rebobinado>si</rebobinado>    
+                        </cinta>
+                    </cintas>
+                </compras>
+        </datos_factura>
+    </factura>
+ </facturas>

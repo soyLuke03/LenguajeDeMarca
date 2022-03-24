@@ -1,0 +1,10 @@
+<!DOCTYPE tienda [
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT distribuidor (#PCDATA)>
+<!ELEMENT movil (codigoModelo¿,marca+,caracteristicas+)>
+<!ELEMENT codigodelModelo (#PCDATA)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT caracteristicas>
+
+]>

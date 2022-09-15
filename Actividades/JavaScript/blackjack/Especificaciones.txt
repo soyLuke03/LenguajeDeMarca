@@ -1,0 +1,11 @@
+Maquina-
+	Numeros aleatorios
+	Nunca se pasa
+
+Jugador-
+	Pide numero aleatorio
+	La suma se muestra en pantalla
+	Opcion de PEDIR o PLANTAR
+
+Comparar quien gana con la máquina.
+Numeros aleatorios hasta 10.

@@ -1,20 +1,14 @@
 <ligafutbol>
     <partido>
-        <equipolocal nombre="Real Madrid"/>
-        <equipovisitante nombre="Barcelona"/>
-        <goleslocal numero="3"/>
-        <golesvisitante numero="0"/>
+        <equipolocal numero="3" nombre="Real Madrid"/>
+        <equipovisitante numero="0" nombre="Barcelona"/>
     </partido>
     <partido>
-        <equipolocal nombre="Sevilla"/>
-        <equipovisitante nombre="Betis"/>
-        <goleslocal numero="1"/>
-        <golesvisitante numero="1"/>
+        <equipolocal numero="1" nombre="Sevilla"/>
+        <equipovisitante numero="1" nombre="Betis"/>
     </partido>
     <partido>
-        <equipolocal nombre="Granada"/>
-        <equipovisitante nombre="Real Sociedad"/>
-        <goleslocal numero="0"/>
-        <golesvisitante numero="2"/>
+        <equipolocal numero="0" nombre="Granada"/>
+        <equipovisitante numero="2" nombre="Real Sociedad"/>
     </partido>
 </ligafutbol>

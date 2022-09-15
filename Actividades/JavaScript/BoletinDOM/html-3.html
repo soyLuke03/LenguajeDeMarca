@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <form>
+
+            <legend>Nombre</legend>
+            <input id="nombre" type="text" maxlength="20" required>
+
+            <legend>Grupo o cantante</legend>
+            <input id="grupo" type="text" maxlength="20" required>
+
+            <legend>Año</legend>
+            <input id="fecha" type="date" required>
+
+            <legend>Tipo</legend>    
+            <select id="tipo">
+                <option value="">...</option>
+                <option value="rock">rock</option>
+                <option value="pop">pop</option>
+                <option value="punk">punk</option>
+                <option value="indie">indie</option>
+            </select>
+
+            <legend>Ubicacion</legend>
+            <input id="localizacion" type="number">
+
+            <legend>Prestado</legend>
+            <input id="prestado" type="checkbox">
+        
+        
+            <button id="subir" onclick="crearDisco()">Crear disco</button>
+        </form>
+
+
+
+    </body>
+    <script src="JS-3.js"></script>
+</html>

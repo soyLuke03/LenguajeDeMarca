@@ -1,0 +1,57 @@
+div#uno{
+    width: 450px;
+    background-color: rgba(172, 255, 47, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+h1[class="display"]{
+    margin-top: 2%;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-decoration-color: red;
+}
+
+div#base {
+    margin-top: 2%;
+    background-color: rgba(0, 128, 0, 0.537);
+}
+
+div#dos{
+    width: 450px;
+    background-color: hsla(60, 100%, 50%, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+}
+
+div#master{
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgVgr2u9SbO-TreO727N8_tgxSIturhwxTgA&usqp=CAU);
+    height: 700px;
+    width: 100%;
+}
+
+div#caja1 {
+    justify-items: center;
+    float: right;
+    height: auto;
+    width: 45%;
+    background-color: rgba(119, 119, 119, 0.447);
+
+}
+div#caja2 {
+    justify-items: center;
+    float: left;
+    height: auto;
+    width: 45%;
+    background-color: rgba(119, 119, 119, 0.447);
+
+}
+
+div#boton{
+    justify-items: center;
+    margin-bottom: 50px;
+}

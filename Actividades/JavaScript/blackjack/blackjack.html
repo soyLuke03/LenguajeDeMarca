@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="cssdeblackjack.css">
+    </head>
+    <body>
+
+    <div id="master">
+        <div id="base">
+            <h1 class="display" style="font-size: 75px">BLACKJACK</h1>
+
+            <div id="boton">
+                <button id="tryS" disabled>***</button>
+                <button onclick="inicio()">INICIAR</button>
+                <button onclick="reboot()">REINICIAR</button>
+                <button id="tryS" disabled>***</button>
+            </div>
+
+            <div id="caja1">
+                <div id="uno">
+                    <h2>JUGADOR</h2>
+                    <hr size="5" color="black">
+                    <p id="contenidoJugador"></p>
+                    <hr size="5" color="black">
+                    <h4>Puntos del jugador</h4>
+                </div>
+            </div>
+
+            <div id="caja2">
+                <div id="dos">
+                    <h2>MAQUINA</h2>
+                    <hr size="5" color="black">
+                    <p id="contenidoMaquina"></p>
+                    <hr size="5" color="black">
+                    <h4>Puntos de la IA</h4>
+                </div>
+            </div>
+        </div>
+     </div>
+
+
+
+        <script src="JSdeBlackjack.js"></script>
+    </body>
+</html>
